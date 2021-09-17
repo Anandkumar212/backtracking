@@ -15,7 +15,7 @@ Backtracking is a form of recursion.
 <p>Suppose you get to a bad leaf. You can <i> backtrack</i> to continue the search for a good leaf by revoking your <i> most recent</i> choice, and trying out the next option in that set of options. If you run out of options, revoke the choice that got you here, and try another choice at that node. If you end up at the root with no options left, there are no good leaves to be found.</p>
 This needs an example.<br>
 <center> 
-<img src="C:\Users\ANAND KUMAR\OneDrive\Desktop\projects\treesearch.gif" alt="">
+<img src="./treesearch.gif" alt="">
 </center>
 <ol>
     <li>Starting at Root, your options are A and B. You choose A.</li>
@@ -150,7 +150,7 @@ Here is the recursive backtracking algorithm, modified slightly to print (in rev
 For starters, let's do the simplest possible example of backtracking, which is searching an actual tree. We will also use the simplest kind of tree, a binary tree.
 <p>A <b> binary tree</b> is a data structure composed of <b>nodes</b>. One node is designated as the <b>root node</b>. Each node can reference (point to) zero, one, or two other nodes, which are called its <b>children</b>. The children are referred to as the<b> left child </b>and/or the<b> right child</b>. All <b>nodes</b>are reachable (by one or more steps) from the root node, and there are no cycles. For our purposes, although this is not part of the definition of a <b>binary tree</b>, we will say that a node might or might not be a goal node, and will contain its name. The first example in this paper (which we repeat here) shows a <b>binary tree </b>.</p>
 <center>
-<img src="C:\Users\ANAND KUMAR\OneDrive\Desktop\projects\treesearch.gif" alt="">
+<img src="./treesearch.gif" alt="">
 </center>
 <br>
 Here's a definition of the BinaryTree class:
